@@ -28,12 +28,6 @@
     <!--page title end-->
 
 
-    <!--body content start-->
-
-    <div class="page-content">
-
-        <!--contact start-->
-
         <section>
             <div class="container">
                 <div class="row">
@@ -131,8 +125,5 @@
 
         <!--contact end-->
 
-
-
-    </div>
 
 @endsection

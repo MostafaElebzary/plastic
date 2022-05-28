@@ -28,43 +28,42 @@
 
     <!--body content start-->
 
-    <div class="page-content">
-
-        <!--service details start-->
-
-        <section id="about_us">
-            <div class="container">
-                <div class="row align-items-center justify-content-between">
-                    <div class="col-lg-6 col-12 pe-md-6">
-                        <div class=" position-relative">
-                            <div class="me-sm-8 mb-10">
-                                {{--                                $about              --}}
-                                <img class="img-fluid img-border box-shadow w-100"
-                                     src="{{url('public/uploads/'.$data->photo)}}" alt="">
-                            </div>
-                            <div class="position-absolute bottom-0 ms-8 mb-n10">
-                                <img class="img-fluid img-border box-shadow z-index-1"
-                                     src="{{url('public/uploads/'.$data->photo2)}}" alt="">
-                            </div>
-                        </div>
+    <!-- About -->
+    <section class="about-area about-area-three ptb-100" id="about_us">
+        <div class="container">
+            <div class="row align-iems-center">
+                <div class="col-lg-6">
+                    <div class="section-title">
+                        <span class="sub-title">{{trans('lang.About Us')}}</span>
+                        <h2>{{$data->append_title}}</h2>
                     </div>
-                    <div class="col-lg-6 col-12 mt-6 mt-lg-0">
-                        <div class="section-title">
-                            <h2 class="title">{{$data->append_title}}</h2>
-                            <p class="mb-0">
-                                {!! $data->append_content !!}
-                            </p>
-                        </div>
-
+                    <div class="about-content">
+                        <p> {!! $data->append_content !!}</p>
 
                     </div>
                 </div>
+                <div class="col-lg-6">
+                    <div class="about-img-wrap">
+                        <div class="about-img-slider owl-theme owl-carousel">
+                            <div class="about-img-item">
+                                <img src="{{url('public/uploads/'.$data->photo)}}" alt="About">
+                            </div>
+                            <div class="about-img-item">
+                                <img src="{{url('public/uploads/'.$data->photo2)}}" alt="About">
+                            </div>
+
+                        </div>
+                        <div class="about-shape">
+                            <img src="{{ URL::asset('public/new_front/ar')}}/img/home-one/about2.png" alt="About">
+                            <img src="{{ URL::asset('public/new_front/ar')}}/img/home-one/about4.png" alt="About">
+                            <img src="{{ URL::asset('public/new_front/ar')}}/img/home-one/about5.png" alt="About">
+                        </div>
+                    </div>
+                </div>
             </div>
-        </section>
-
-        <!--service details end-->
-
-    </div>
+        </div>
+    </section>
+    <!-- End About -->
 
 
 

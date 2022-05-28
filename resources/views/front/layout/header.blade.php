@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-@if(session('lang') == 'ar')
+    @if(session('lang') == 'ar')
         <link rel="stylesheet" href="{{ URL::asset('public/new_front/ar')}}/css/bootstrap.rtl.min.css">
         <!-- Meanmenu CSS -->
         <link rel="stylesheet" href="{{ URL::asset('public/new_front/ar')}}/css/meanmenu.css">
@@ -25,26 +25,26 @@
         <link rel="stylesheet" href="{{ URL::asset('public/new_front/ar')}}/css/rtl.css">
 
 
-@else
+    @else
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="{{ URL::asset('public/new_front/en')}}/css/bootstrap.min.css">
-    <!-- Meanmenu CSS -->
-    <link rel="stylesheet" href="{{ URL::asset('public/new_front/en')}}/css/meanmenu.css">
-    <!-- Boxicons CSS -->
-    <link rel="stylesheet" href="{{ URL::asset('public/new_front/en')}}/css/boxicons.min.css">
-    <!-- Flaticon CSS -->
-    <link rel="stylesheet" href="{{ URL::asset('public/new_front/en')}}/fonts/flaticon.css">
-    <!-- Owl Carousel CSS -->
-    <link rel="stylesheet" href="{{ URL::asset('public/new_front/en')}}/css/owl.carousel.min.css">
-    <link rel="stylesheet" href="{{ URL::asset('public/new_front/en')}}/css/owl.theme.default.min.css">
-    <!-- Odometer CSS-->
-    <link rel="stylesheet" href="{{ URL::asset('public/new_front/en')}}/css/odometer.min.css">
-    <!-- Magnific Popup CSS -->
-    <link rel="stylesheet" href="{{ URL::asset('public/new_front/en')}}/css/magnific-popup.min.css">
-    <!-- Style CSS -->
-    <link rel="stylesheet" href="{{ URL::asset('public/new_front/en')}}/css/style.css">
-    <!-- Responsive CSS -->
-    <link rel="stylesheet" href="{{ URL::asset('public/new_front/en')}}/css/responsive.css">
+        <link rel="stylesheet" href="{{ URL::asset('public/new_front/en')}}/css/bootstrap.min.css">
+        <!-- Meanmenu CSS -->
+        <link rel="stylesheet" href="{{ URL::asset('public/new_front/en')}}/css/meanmenu.css">
+        <!-- Boxicons CSS -->
+        <link rel="stylesheet" href="{{ URL::asset('public/new_front/en')}}/css/boxicons.min.css">
+        <!-- Flaticon CSS -->
+        <link rel="stylesheet" href="{{ URL::asset('public/new_front/en')}}/fonts/flaticon.css">
+        <!-- Owl Carousel CSS -->
+        <link rel="stylesheet" href="{{ URL::asset('public/new_front/en')}}/css/owl.carousel.min.css">
+        <link rel="stylesheet" href="{{ URL::asset('public/new_front/en')}}/css/owl.theme.default.min.css">
+        <!-- Odometer CSS-->
+        <link rel="stylesheet" href="{{ URL::asset('public/new_front/en')}}/css/odometer.min.css">
+        <!-- Magnific Popup CSS -->
+        <link rel="stylesheet" href="{{ URL::asset('public/new_front/en')}}/css/magnific-popup.min.css">
+        <!-- Style CSS -->
+        <link rel="stylesheet" href="{{ URL::asset('public/new_front/en')}}/css/style.css">
+        <!-- Responsive CSS -->
+        <link rel="stylesheet" href="{{ URL::asset('public/new_front/en')}}/css/responsive.css">
 
     @endif
     <title>Paris Plastic Factory</title>
@@ -52,8 +52,13 @@
     <link rel="icon" type="image/png" href="{{url('public/uploads/posts/'.$Settings->fav)}}">
 
     <style>
-        .mySlides {display: none;}
-        img {vertical-align: middle;}
+        .mySlides {
+            display: none;
+        }
+
+        img {
+            vertical-align: middle;
+        }
 
         /* Slideshow container */
         .slideshow-container {
@@ -69,13 +74,19 @@
         }
 
         @keyframes fade {
-            from {opacity: .4}
-            to {opacity: 1}
+            from {
+                opacity: .4
+            }
+            to {
+                opacity: 1
+            }
         }
 
         /* On smaller screens, decrease text size */
         @media only screen and (max-width: 300px) {
-            .text {font-size: 11px}
+            .text {
+                font-size: 11px
+            }
         }
     </style>
 </head>
@@ -100,7 +111,7 @@
                         <ul>
                             <li>
                                 <i class="flaticon-mail"></i>
-                                <a  href="mailto:{{$Settings->email1}}">
+                                <a href="mailto:{{$Settings->email1}}">
                                     <span class="__cf_email__">{{$Settings->email1}}</span>
                                 </a>
                             </li>
@@ -176,7 +187,8 @@
                         <li>
                             <i class='bx bx-mail-send'></i>
                             <h4>
-                                <a  href="mailto:{{$Settings->email1}}"><span class="__cf_email__">{{$Settings->email1}}</span></a>
+                                <a href="mailto:{{$Settings->email1}}"><span
+                                        class="__cf_email__">{{$Settings->email1}}</span></a>
                             </h4>
                             <span>{{trans('lang.Send us Email')}}</span>
                         </li>
@@ -216,14 +228,17 @@
                         <li class="nav-item"><a class="nav-link @if(Request::segment(1) == "product") active @endif"
                                                 href="@if(Request::segment(1) != ""){{url('/')}}@endif#products">{{trans('lang.products')}} </a>
                         </li>
-                        <li class="nav-item"><a class="nav-link" href="@if(Request::segment(1) != ""){{url('/')}}@endif#partners">{{trans('lang.partners')}} </a>
+                        <li class="nav-item"><a class="nav-link"
+                                                href="@if(Request::segment(1) != ""){{url('/')}}@endif#partners">{{trans('lang.partners')}} </a>
                         </li>
 
-                        <li class="nav-item"><a class="nav-link @if(Request::segment(1) == "contact-us") active @endif" href="{{url('contact-us')}}">{{trans('lang.Contact_us')}}</a>
+                        <li class="nav-item"><a class="nav-link @if(Request::segment(1) == "contact-us") active @endif"
+                                                href="{{url('contact-us')}}">{{trans('lang.Contact_us')}}</a>
                         </li>
                     </ul>
                     <div class="side-nav-two">
-                        <button type="button" class="btn modal-btn" data-bs-toggle="modal" data-bs-target="#myModalRight">
+                        <button type="button" class="btn modal-btn" data-bs-toggle="modal"
+                                data-bs-target="#myModalRight">
                             <span></span>
                             <span></span>
                             <span></span>
@@ -252,22 +267,22 @@
                     <ul>
                         <li>
                             <a href="{{$Settings->facebook}}" target="_blank">
-                                <i class='bx bxl-facebook' ></i>
+                                <i class='bx bxl-facebook'></i>
                             </a>
                         </li>
                         <li>
                             <a href="{{$Settings->twitter}}" target="_blank">
-                                <i class='bx bxl-twitter' ></i>
+                                <i class='bx bxl-twitter'></i>
                             </a>
                         </li>
                         <li>
                             <a href="{{$Settings->linkedin}}" target="_blank">
-                                <i class='bx bxl-linkedin' ></i>
+                                <i class='bx bxl-linkedin'></i>
                             </a>
                         </li>
                         <li>
                             <a href="{{$Settings->instagram}}" target="_blank">
-                                <i class='bx bxl-instagram' ></i>
+                                <i class='bx bxl-instagram'></i>
                             </a>
                         </li>
                     </ul>

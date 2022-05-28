@@ -195,6 +195,22 @@
                     </ul>
                 </div>
             </div>
+            <div class="col-lg-2">
+                <div class="language-selection ms-3">
+                    <div class="dropdown">
+                        <button class="dropdown-toggle btn btn-primary" type="button" id="dropdownMenuButton"
+                                data-bs-toggle="dropdown"
+                                aria-expanded="false">{{\App::getLocale()== "en" ? "English" : "العربية"  }}
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton" style="z-index: 2000">
+                            <li><a class="dropdown-item" href="{{url('lang/en')}}">English</a>
+                            </li>
+                            <li><a class="dropdown-item" href="{{url('lang/ar')}}">العربية</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </div>

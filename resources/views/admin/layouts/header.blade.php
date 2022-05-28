@@ -17,18 +17,18 @@
                     <a href="{{url('/admin')}}" class="waves-effect"><span> الرئيسية</span><i
                             class=" mbri-edit"></i></a>
                 </li>
-                <li>
-                    <a href="{{url('admin/subscribers')}}" class="waves-effect"><span> العملاء</span> <i
-                            class=" mbri-edit"></i></a>
-                </li>
-                <li>
-                    <a href="{{url('admin/category')}}" class="waves-effect"><span> قائمة التحاليل </span> <i
-                            class=" mbri-edit"></i></a>
-                </li>
-                <li>
-                    <a href="{{url('admin/samples')}}" class="waves-effect"><span> طلبات تحديد موعد</span> <i
-                            class=" mbri-edit"></i></a>
-                </li>
+{{--                <li>--}}
+{{--                    <a href="{{url('admin/subscribers')}}" class="waves-effect"><span> العملاء</span> <i--}}
+{{--                            class=" mbri-edit"></i></a>--}}
+{{--                </li>--}}
+{{--                <li>--}}
+{{--                    <a href="{{url('admin/category')}}" class="waves-effect"><span> قائمة التحاليل </span> <i--}}
+{{--                            class=" mbri-edit"></i></a>--}}
+{{--                </li>--}}
+{{--                <li>--}}
+{{--                    <a href="{{url('admin/samples')}}" class="waves-effect"><span> طلبات تحديد موعد</span> <i--}}
+{{--                            class=" mbri-edit"></i></a>--}}
+{{--                </li>--}}
                 <li>
                     <a href="{{url('admin/pages')}}" class="waves-effect"><span> الصفحات</span> <i
                             class=" mbri-edit"></i></a>
@@ -45,13 +45,13 @@
                 </li>
 
                 <li>
-                    <a href="{{url('admin/blogs')}}" class="waves-effect"><span> معرض الصور</span> <i
+                    <a href="{{url('admin/blogs')}}" class="waves-effect"><span> المنتجات</span> <i
                             class=" mbri-edit"></i></a>
                 </li>
-                <li>
-                    <a href="{{url('admin/documentarys')}}" class="waves-effect"><span> الاعتمادات</span> <i
-                            class=" mbri-edit"></i></a>
-                </li>
+{{--                <li>--}}
+{{--                    <a href="{{url('admin/documentarys')}}" class="waves-effect"><span> الاعتمادات</span> <i--}}
+{{--                            class=" mbri-edit"></i></a>--}}
+{{--                </li>--}}
                 <li>
                     <a href="{{url('admin/partners')}}" class="waves-effect"><span> شركاء النجاح</span> <i
                             class=" mbri-edit"></i></a>

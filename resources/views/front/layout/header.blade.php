@@ -159,7 +159,7 @@
 <!-- End Header top -->
 
 <!-- Header Contact -->
-<div class="header-contact-area">
+<div class="header-contact-area" id="Home">
     <div class="container">
         <div class="row">
             <div class="col-lg-2">

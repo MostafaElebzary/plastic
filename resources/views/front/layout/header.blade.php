@@ -49,7 +49,7 @@
     @endif
     <title>Paris Plastic Factory</title>
 
-    <link rel="icon" type="image/png" href="{{ URL::asset('public/new_front/ar')}}/img/favicon.png">
+    <link rel="icon" type="image/png" href="{{url('public/uploads/posts/'.$Settings->fav)}}">
 
     <style>
         .mySlides {display: none;}
@@ -204,21 +204,22 @@
                 <div class="collapse navbar-collapse mean-menu" id="navbarSupportedContent">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link active"
+                            <a class="nav-link @if(Request::segment(1) == "") active @endif"
                                href="@if(Request::segment(1) != ""){{url('/')}}@endif#Home">{{trans('lang.home')}}</a>
                         </li>
-                        <li class="nav-item"><a class="nav-link"
+                        <li class="nav-item"><a class="nav-link "
                                                 href="@if(Request::segment(1) != ""){{url('/')}}@endif#about_us">{{trans('lang.about_us')}} </a>
                         </li>
-                        <li class="nav-item"><a class="nav-link"
+                        <li class="nav-item"><a class="nav-link @if(Request::segment(1) == "service") active @endif"
                                                 href="@if(Request::segment(1) != ""){{url('/')}}@endif#services">{{trans('lang.services')}} </a>
                         </li>
-                        <li class="nav-item"><a class="nav-link" href="@if(Request::segment(1) != ""){{url('/')}}@endif#products">{{trans('lang.products')}} </a>
+                        <li class="nav-item"><a class="nav-link @if(Request::segment(1) == "product") active @endif"
+                                                href="@if(Request::segment(1) != ""){{url('/')}}@endif#products">{{trans('lang.products')}} </a>
                         </li>
                         <li class="nav-item"><a class="nav-link" href="@if(Request::segment(1) != ""){{url('/')}}@endif#partners">{{trans('lang.partners')}} </a>
                         </li>
 
-                        <li class="nav-item"><a class="nav-link" href="{{url('contact-us')}}">{{trans('lang.Contact_us')}}</a>
+                        <li class="nav-item"><a class="nav-link @if(Request::segment(1) == "contact-us") active @endif" href="{{url('contact-us')}}">{{trans('lang.Contact_us')}}</a>
                         </li>
                     </ul>
                     <div class="side-nav-two">

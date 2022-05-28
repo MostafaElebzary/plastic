@@ -1,0 +1,664 @@
+body {
+    direction: rtl;
+    text-align: right;
+}
+.header-top-area .header-top-item .header-left ul li {
+    margin-right: 0;
+    margin-left: 22px;
+}
+.header-top-area .header-top-item .header-left ul li:nth-child(3) {
+    margin-right: unset;
+    margin-left: 0;
+}
+.header-top-area .header-top-item .header-left ul li i {
+    margin-right: unset;
+    margin-left: 3px;
+}
+.header-top-area .header-top-item .header-right {
+    text-align: left;
+}
+.header-top-area .header-top-item .header-right ul li {
+    margin-right: unset;
+    margin-left: 15px;
+}
+.header-top-area .header-top-item .header-right ul li:last-child {
+    margin-right: unset;
+    margin-left: 0;
+}
+.navbar-light .navbar-brand {
+    margin-right: 0;
+    margin-left: 10px;
+}
+.navbar-area .main-nav .navbar-light .navbar-nav .nav-item a:before {
+    left: unset;
+    right: -12px;
+}
+.navbar-area .main-nav .navbar-light .navbar-nav .nav-item .dropdown-menu {
+    text-align: right;
+    left: unset;
+    right: 0;
+}
+.navbar-area .main-nav:before {
+    left: unset;
+    right: 0;
+    transform: rotateY(180deg);
+}
+.about-area .about-img-wrap .about-shape img:nth-child(1) {
+    left: unset;
+    right: 0;
+}
+.about-area .about-img-wrap .about-shape img:nth-child(2) {
+    right: unset;
+    left: 0;
+}
+.about-area .about-img-wrap .about-shape img:nth-child(3) {
+    right: unset;
+    left: 25px;
+}
+.about-area .about-img-wrap .about-year {
+    border-right: 5px solid #02111e;
+    border-left: unset;
+    left: unset;
+    right: 0;
+}
+.about-area .section-title {
+    text-align: right;
+}
+.about-area .about-content ul li i {
+    margin-right: unset;
+    margin-left: 8px;
+}
+.about-area .about-content img {
+    margin-right: unset;
+    margin-left: 25px;
+    border-left: 3px solid #fa5f0b;
+    border-right: unset;
+    padding-right: unset;
+    padding-left: 25px;
+}
+.about-area .about-content img:last-child {
+    margin-right: unset;
+    padding-right: unset;
+    border-right: unset;
+    margin-left: 0;
+    padding-left: 0;
+    border-left: unset;
+}
+.foreign-item .foreign-bottom {
+    border-right: 3px solid #fa5f0b;
+    border-left: unset;
+    padding-left: unset;
+    padding-right: 10px;
+}
+.benefit-area .benefit-content .section-title {
+    text-align: right;
+}
+.benefit-area .benefit-content .benefit-inner i {
+    left: unset;
+    right: 0;
+}
+.benefit-area .benefit-content .benefit-inner h4 {
+    padding-left: unset;
+    padding-right: 65px;
+}
+.benefit-area .benefit-content {
+    padding: 40px 60px 50px 170px;
+}
+.partner-area .partner-wrap .partner-content .section-title {
+    text-align: right;
+}
+.partner-area .partner-wrap .partner-btn {
+    text-align: left;
+}
+.cost-area .cost-content .section-title {
+    text-align: right;
+}
+.cost-area .cost-content ul li:last-child {
+    margin-left: unset;
+    margin-right: 15px;
+}
+.blog-item .blog-inner {
+    padding: 15px 20px 18px 10px;
+}
+.blog-item span {
+    left: unset;
+    right: 0;
+}
+.footer-item .footer-logo ul li {
+    margin-right: unset;
+    margin-left: 10px;
+}
+.footer-item .footer-logo ul li:last-child {
+    margin-right: unset;
+    margin-left: 0;
+}
+.footer-item .footer-service ul li:hover {
+    padding-left: unset;
+    padding-right: 10px;
+}
+.footer-item .footer-touch ul li i {
+    left: unset;
+    right: 0;
+}
+.footer-item .footer-touch ul li {
+    padding-left: unset;
+    padding-right: 40px;
+}
+.banner-img-two .banner-content {
+    text-align: right;
+}
+.about-area-two .about-content .section-title {
+    text-align: right;
+}
+.about-area-two .about-content .about-p {
+    padding-right: unset;
+    padding-left: 110px;
+}
+.job-area .job-content {
+    padding: 75px 60px 45px 30px;
+}
+.job-area .job-content .section-title {
+    text-align: right;
+}
+.job-area .job-content ul li {
+    margin-right: unset;
+    margin-left: 30px;
+}
+.benefit-area-two .benefit-content {
+    margin-left: unset;
+    margin-right: auto;
+    padding: 0;
+    padding-left: 30px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.social-area .social-content .section-title {
+    text-align: right;
+}
+.social-area .social-content {
+    margin-left: unset;
+    margin-right: -70px;
+    padding: 55px 40px 55px 110px;
+}
+.testimonial-area .testimonial-item .testimonial-top {
+    padding: 40px 30px 40px 65px;
+}
+.testimonial-area .testimonial-item .testimonial-top i {
+    right: unset;
+    left: 30px;
+}
+.testimonial-area .testimonial-item ul li:last-child {
+    margin-left: unset;
+    margin-right: 15px;
+}
+.testimonial-area .testimonial-item ul {
+    padding-left: unset;
+    padding-right: 40px;
+}
+.book-area .book-content:before {
+    left: unset;
+    right: -264px;
+    border-bottom: 224px solid #fa5f0b;
+    border-top: unset;
+    border-left: 304px solid transparent;
+    border-right: unset;
+}
+.nav-area-two .main-nav .navbar-light:before {
+    right: unset;
+    left: 0;
+    transform: rotateY(180deg);
+}
+.nav-area-two .main-nav .navbar-nav {
+    margin-left: auto !important;
+    margin-right: 25px !important;
+}
+.nav-area-two .main-nav .navbar-light {
+    padding-right: unset;
+    padding-left: 25px;
+}
+.nav-srh {
+    margin-right: 0;
+    margin-left: 5px;
+}
+.nav-srh .search-area {
+    right: unset;
+    left: 8px;
+}
+.nav-srh .search-area .search-icon {
+    right: unset;
+    left: 30px;
+}
+.nav-srh .search-area .src-input {
+    padding-right: 20px;
+}
+.modal.modal-right .modal-dialog {
+    transform: translate(-100%, 0);
+    margin: 0;
+    margin-right: auto;
+}
+.modal-body .image-area .col-lg-4 {
+    padding-right: 15px;
+    padding-left: 5px;
+    margin-right: 0;
+    margin-left: -5px;
+}
+.modal-header .close {
+    margin: -1rem auto -1rem -1rem;
+}
+.header-contact-area .contact-item ul li i {
+    left: unset;
+    right: 0;
+}
+.header-contact-area .contact-item ul li {
+    padding-left: unset;
+    padding-right: 50px;
+    text-align: right;
+    margin-right: unset;
+    margin-left: 10px;
+}
+.header-contact-area .contact-item ul li:last-child {
+    margin-right: unset;
+    margin-left: 0;
+}
+.benefit-area-three .benefit-content {
+    right: unset;
+    left: -45px;
+}
+.faq-area .accordion a {
+    padding: 15px 18px 15px 0;
+}
+.faq-area .accordion a:after {
+    right: unset;
+    left: 20px;
+}
+.service-details-area .service-details-item .service-details-robot .robot-left ul li i {
+    margin-right: unset;
+    margin-left: 5px;
+}
+.service-details-area .service-details-item .service-details-cat h3:before {
+    left: unset;
+    right: 0;
+}
+.service-details-area .service-details-item .service-details-form h3:before {
+    left: unset;
+    right: 0;
+}
+.project-details-item .project-details-mec h3:before {
+    left: unset;
+    right: 0;
+}
+.project-details-item .project-details-mec ul li a i {
+    right: unset;
+    left: 10px;
+}
+.project-details-item .project-details-form h3:before {
+    left: unset;
+    right: 0;
+}
+.project-details-item .project-details-form .form-group .form-control {
+    padding-left: 15px;
+    padding-right: 10px;
+}
+.project-details-item .project-details-form .form-group label {
+    right: unset;
+    left: 10px;
+}
+.project-details-item .project-details-img ul li i {
+    margin-right: unset;
+    margin-left: 3px;
+}
+.blog-details-item .blog-details-name .details-user ul li {
+    margin-right: 0;
+    margin-left: 10px;
+}
+.blog-details-item .blog-details-name .details-user ul li:last-child {
+    margin-right: unset;
+    margin-left: 0;
+}
+.blog-details-item .blog-details-name .details-item ul li i {
+    margin-right: unset;
+    margin-left: 3px;
+}
+.blog-details-item .blog-details-quote blockquote {
+    border-right: 3px solid #fa5f0b;
+    border-left: unset;
+    padding: 45px 60px 35px 30px;
+}
+.blog-details-item .blog-details-quote blockquote i {
+    left: unset;
+    right: 25px;
+}
+.blog-details-item .blog-details-quote ul li {
+    margin-right: unset;
+    margin-left: 5px;
+}
+.blog-details-item .blog-details-quote ul li:last-child {
+    margin-right: unset;
+    margin-left: 0;
+}
+.blog-area-three .blog-item .blog-inner {
+    padding: 20px 25px 18px 10px;
+}
+.blog-details-area .blog-details-comment ul li img {
+    left: unset;
+    right: 0;
+}
+.blog-details-area .blog-details-comment ul li .comment-inner {
+    padding-left: unset;
+    padding-right: 85px;
+}
+.blog-details-area .blog-details-comment ul li .comment-inner a {
+    right: unset;
+    left: 0;
+}
+.blog-details-area .blog-details-comment ul li:nth-child(2) {
+    margin-left: unset;
+    margin-right: 70px;
+}
+.blog-details-area .blog-details-form .form-group .form-control {
+    padding-left: 15px;
+    padding-right: 20px;
+}
+.blog-details-item .details-head h3:before {
+    left: unset;
+    right: 0;
+}
+.blog-details-item .blog-details-search .form-group .form-control {
+    padding-left: 15px;
+    padding-right: 20px;
+}
+.blog-details-item .blog-details-search .form-group .blog-details-src-btn {
+    right: unset;
+    left: 15px;
+}
+.blog-details-item .blog-details-post ul li .post-inner {
+    padding-left: unset;
+    padding-right: 15px;
+}
+.contact-area .contact-right .form-group .form-control {
+    padding-left: 15px;
+    padding-right: 25px;
+}
+.contact-area .contact-left ul li i {
+    margin-right: 0;
+    margin-left: 5px;
+}
+.about-area .about-img-wrap .owl-theme .owl-nav.disabled + .owl-dots {
+    right: unset;
+    left: 85px;
+}
+@keyframes banner-ani {
+    50% {
+        transform: translate(50px, 0);
+    }
+}
+#toTop {
+    right: unset;
+    left: 0;
+}
+.back-to-top-btn i {
+    margin-right: 0;
+    margin-left: 28px;
+}
+.about-area .about-img-wrap .about-shape img:nth-child(4) {
+    right: unset;
+    left: -50px;
+}
+.benefit-area .benefit-content .benefit-shape {
+    right: unset;
+    left: 0;
+}
+@keyframes benefit-shape {
+    50% {
+        transform: translate(50px, 0);
+    }
+}
+.partner-area .partner-wrap .partner-shape {
+    left: unset;
+    right: 0;
+}
+@keyframes partner-ani {
+    50% {
+        transform: translate(-50px, 0);
+    }
+}
+.offer-item .offer-shape {
+    left: unset;
+    right: 15px;
+}
+.job-area .job-shape {
+    right: unset;
+    left: 50px;
+}
+.header-contact-area .side-nav {
+    text-align: left;
+}
+.contact-area .contact-right .form-group .list-unstyled {
+    text-align: right;
+    padding-right: 0;
+}
+.social-area .social-img {
+    margin-left: 0;
+    margin-right: 15px;
+}
+.about-area .about-img-wrap .about-shape img:nth-child(4) {
+    left: 15px;
+}
+#myModalRight {
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+}
+
+@media only screen and (max-width : 767px) {
+
+    .mean-container .mean-nav ul li a.mean-expand {
+        right: unset;
+        left: 0;
+    }
+    .side-nav {
+        right: unset;
+        left: 60px;
+    }
+    .header-top-area .header-top-item .header-right {
+        text-align: center;
+    }
+    .benefit-area .benefit-content {
+        padding: 30px 10px 40px 10px;
+    }
+    .partner-area .partner-wrap .partner-content .section-title {
+        text-align: center;
+    }
+    .partner-area .partner-wrap .partner-btn {
+        text-align: center;
+    }
+    .blog-item .blog-inner {
+        padding: 15px 10px 18px 10px;
+    }
+    .banner-img-two .banner-content {
+        text-align: center;
+    }
+    .offset-3 {
+        margin-left: unset;
+        margin-right: 25%;
+    }
+    .about-area-two .about-content .section-title {
+        text-align: center;
+    }
+    .about-area-two .about-content .about-p {
+        padding-left: 0;
+    }
+    .job-area .job-content {
+        padding: 30px 0 20px 0;
+    }
+    .job-area .job-content .section-title {
+        text-align: center;
+    }
+    .job-area .job-content ul li {
+        text-align: right;
+        flex: 0 0 100%;
+        max-width: 100%;
+        max-width: 230px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .social-area .social-content {
+        margin-right: 0;
+    }
+    .social-area .social-content .section-title {
+        text-align: center;
+    }
+    .testimonial-area .testimonial-item .testimonial-top {
+        padding: 30px 35px 30px 20px;
+    }
+    .testimonial-area .testimonial-item .testimonial-top i {
+        top: 10px;
+        left: 7px;
+    }
+    .testimonial-area .testimonial-item ul {
+        padding-right: 20px;
+    }
+    .testimonial-area .testimonial-item .testimonial-top {
+        padding: 30px 20px 30px 35px;
+    }
+    .benefit-area .benefit-content {
+        padding: 0 0 30px 0;
+    }
+    .benefit-area-three .benefit-content {
+        left: 0;
+        padding: 0;
+    }
+    .side-nav-two {
+        right: unset;
+        left: 80px;
+    }
+    .nav-srh .search-area.opened {
+        left: -100px;
+    }
+    .faq-area .accordion p {
+        padding: 20px 20px 15px 25px;
+    }
+    .faq-area .accordion a {
+        padding: 15px 18px 15px 30px;
+    }
+    .blog-details-item .blog-details-quote blockquote {
+        padding: 30px 50px 30px 15px;
+    }
+    .blog-details-item .blog-details-quote blockquote i {
+        right: 15px;
+    }
+    .blog-details-area .blog-details-comment ul li:nth-child(2) {
+        margin-right: 20px;
+    }
+    .header-contact-area .side-nav {
+        text-align: center;
+    }
+    .social-area .social-img {
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .mean-container a.meanmenu-reveal {
+        padding: 15px 0 0 15px;
+        right: auto !important;
+        left: 0 !important;
+    }
+    .mobile-nav .logo {
+        left: auto !important;
+        right: 15px !important;
+    }
+    .mean-container .mean-nav ul li a.mean-expand {
+        text-align: left !important;
+        left: 0;
+        right: auto;
+    }
+    .mean-container .mean-nav ul li a {
+        float: right !important;
+        text-align: right !important;
+    }
+}
+
+
+@media only screen and (min-width : 768px) and (max-width : 991px) {
+
+    .header-top-area .header-top-item .header-right {
+        text-align: center;
+    }
+    .side-nav {
+        right: unset;
+        left: 70px;
+    }
+    .offset-sm-3 {
+        margin-left: unset;
+        margin-right: 25%;
+    }
+    .partner-area .partner-wrap .partner-content .section-title {
+        text-align: center;
+    }
+    .partner-area .partner-wrap .partner-btn {
+        text-align: center;
+    }
+    .banner-img-two .banner-content {
+        text-align: center;
+    }
+    .banner-img-two .banner-img {
+        animation: none;
+    }
+    .about-area-two .about-content .section-title {
+        text-align: center;
+    }
+    .about-area-two .about-content .about-p {
+        padding-left: 0;
+    }
+    .job-area .job-content {
+        padding: 30px 0px 40px 0px;
+    }
+    .job-area .job-content ul li {
+        text-align: right;
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 50%;
+        max-width: 230px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .benefit-area-two .benefit-content {
+        margin-right: 0;
+        padding: 0;
+        padding-left: 0;
+        padding-top: 0;
+        padding-bottom: 30px;
+    }
+    .social-area .social-content {
+        margin-right: 0;
+    }
+    .social-area .social-content .section-title {
+        text-align: center;
+    }
+    .benefit-area-three .benefit-content {
+        left: 0;
+        padding: 0;
+    }
+    .side-nav-two {
+        right: unset;
+        left: 80px;
+    }
+    .header-contact-area .side-nav {
+        text-align: center;
+    }
+    .social-area .social-img {
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+
+@media only screen and (min-width : 992px) and (max-width : 1199px) {
+    .banner-img-two .banner-img {
+        animation: none;
+    }
+    .benefit-area-two .benefit-content {
+        padding-left: 10px;
+        padding-right: 15px;
+    }
+}

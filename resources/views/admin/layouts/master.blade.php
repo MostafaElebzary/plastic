@@ -16,11 +16,7 @@
     <!-- Loader -->
     <div id="preloader"><div id="status"><div class="spinner"></div></div></div>
     <div id="wrapper">
-        @if(Request::segment(1) == 'ar')
-        @include('admin.layouts.header-en')
-        @else
         @include('admin.layouts.header')
-        @endif
 
         <!-- Start right Content here -->
         <div class="content-page">

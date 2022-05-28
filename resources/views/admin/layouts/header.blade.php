@@ -35,7 +35,7 @@
                 </li>
 
                 <li>
-                    <a href="{{url('admin/sliders')}}" class="waves-effect"><span> العروض</span> <i
+                    <a href="{{url('admin/sliders')}}" class="waves-effect"><span> السليدر</span> <i
                             class=" mbri-edit"></i></a>
                 </li>
 
@@ -58,7 +58,7 @@
                 </li>
 
                 <li>
-                    <a href="{{url('admin/contacts')}}" class="waves-effect"><span> الشكاوي والمقترحات</span> <i
+                    <a href="{{url('admin/contacts')}}" class="waves-effect"><span> رسائل التواصل</span> <i
                             class=" mbri-edit"></i></a>
                 </li>
                 <li>
